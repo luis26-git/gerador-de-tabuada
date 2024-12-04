@@ -1,0 +1,85 @@
+/* Definindo as fontes e o layout básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Estilo do header */
+header {
+    background-color: #4CAF50;
+    width: 100%;
+    padding: 20px 0;
+    color: white;
+}
+
+h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+/* Estilo da seção */
+section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+/* Estilo para inputs e botões */
+input[type="number"], input[type="button"], select {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    width: 80%;
+    max-width: 300px;
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+/* Estilo da área da tabuada */
+select {
+    background-color: #f1f1f1;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #888;
+}
+
+/* Efeitos de transição */
+input, select {
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
